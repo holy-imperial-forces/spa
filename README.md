@@ -1,7 +1,20 @@
-# Holy Imperial Forces SPA
+## Frontend SPA
 
-This is frontend for "insert application name here".
+#### Make sure to use 'sudo' for the below commands on unix system 
 
-## Setup
+``` bash
+# Build/Rebuild Containers
+$ make build
 
-TODO: add description
+# Start Containers
+$ make up
+
+# Stop Containers
+$ make stop
+
+# Enter Interactive Shell of SPA
+$ make exec
+
+# Run Tests
+$ make test
+```

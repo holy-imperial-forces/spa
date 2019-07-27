@@ -1,0 +1,30 @@
+{
+  "name": "codebase",
+  "version": "1.0.0",
+  "description": "Frontend SPA. Nuxt + Vue",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext js,vue .",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "eslint": "^6.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "npm": "^6.10.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^3.0.3",
+    "nodemon": "^1.18.9"
+  }
+}

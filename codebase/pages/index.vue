@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        codebase
+        Holy Imperial Forces
       </h1>
       <h2 class="subtitle">
         Frontend SPA. Nuxt + Vue.

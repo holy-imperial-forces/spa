@@ -1,7 +1,18 @@
-# Holy Imperial Forces SPA
+## Frontend SPA
 
-This is frontend for "insert application name here".
+``` bash
+# Build/Rebuild Containers
+$ make build
 
-## Setup
+# Start Containers
+$ make up
 
-TODO: add description
+# Stop Containers
+$ make stop
+
+# Enter Interactive Shell of SPA
+$ make exec
+
+# Run Tests
+$ make test
+```

@@ -1,8 +1,8 @@
 FROM node:11.13.0-alpine
 
-RUN mkdir -p /codebase
-WORKDIR /codebase
-COPY ./codebase /codebase
+RUN mkdir -p /src
+WORKDIR /src
+COPY src /src
 
 RUN npm install \
     && npm run build

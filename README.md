@@ -1,7 +1,5 @@
 ## Frontend SPA
 
-#### Make sure to use 'sudo' for the below commands on unix system 
-
 ``` bash
 # Build/Rebuild Containers
 $ make build
